@@ -760,7 +760,7 @@ public final class DrawManager {
 		drawCenteredRegularString(screen, exitString, screen.getHeight()
 				/ 7 * 4 + fontRegularMetrics.getHeight() * 9);
 
-		if (option == 7) /*option7 => Editor */
+		if (option == 9) /*option9 => Editor */
 			backBufferGraphics.setColor(Color.GREEN);
 		else
 			backBufferGraphics.setColor(Color.WHITE);
